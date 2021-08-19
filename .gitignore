@@ -1,2 +1,5 @@
-/* .jpg
-/imagesCurse / .webp
+/*.jpg
+/imagesCurse/*.webp
+node_modules
+/imagesCurse/*.png
+/*.json
