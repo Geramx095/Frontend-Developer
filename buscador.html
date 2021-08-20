@@ -10,7 +10,7 @@
 <style>
     body{
         margin: 0%;
-        background-color: #605d86;
+        background-color: darkslateblue;
         font-family: sans-serif;
 }
     .header {
@@ -57,11 +57,12 @@
 }
 
     .header__menu li a :{
-    color: white;
+    color: aqua;
     text-decoration: none;
     
     }
     .header__menu li a:hover{
+        color: aqua;
     text-decoration: underline;
     
 }
@@ -106,7 +107,9 @@
        height: 50px;
        padding: 0px 20px;
        width: 70%;
-       background-color: rgba(255, 200, 100, 1.5)
+       background: #ee0979;  /* fallback for old browsers */
+       background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
      }
      ::placeholder {
          color: black;
@@ -131,6 +134,7 @@
     <section class="main">
         <h2 class="main__title">Que quieres ver hoy?</h2>
         <input class="input" type="text" placeholder="Buscar...">
+        <link rel="import" href="carrousel.html">
     </section> 
 </body>
 </html>
