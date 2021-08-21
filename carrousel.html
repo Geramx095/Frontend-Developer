@@ -57,6 +57,7 @@ body{
     cursor: pointer;
     transition: 450ms all;
     transform-origin: center left;
+    position: relative;
   }
   .carousel-item:hover ~ .carousel-item {
     transform: translate3d(100px, 0, 0);
@@ -68,6 +69,13 @@ body{
     transform: scale(1.5);
     opacity: 1;
   }
+
+  .carousel-item__img{
+    width: 200px;
+    height: 250px;
+    object-fit: ;
+
+  }
 </style>
 <body>
     <section class="carousel">
@@ -77,8 +85,10 @@ body{
         </div>        
         <div class="carousel-item__details">
           <div>
-            <img src="" alt="">
-            <img src="" alt="">
+            
+            <img src="https://img.icons8.com/ios/50/000000/play-button-circled--v1.png"/>
+            <img src="/imagesCurse/icons8-más-50.png" alt="">
+
           </div>         
         </div>
         <p class="carousel-item__details--title">Titulo Descriptivo</p>
